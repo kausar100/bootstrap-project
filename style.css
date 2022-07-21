@@ -1,22 +1,69 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
-font-family: Arial, Helvetica, sans-serif;
-}
-h1,h2,h3,h4,h5,h6{
-    font-family:Georgia, 'Times New Roman', Times, serif
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* header start */
+
+header {
     background-image: url("background.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner-container{
+
+.banner-container {
     height: 100vh;
 }
+
+.banner-container h1 {
+    background-color: #355764;
+    color: white;
+    padding: 2% 10%;
+    font-style: italic;
+    border-radius: .6rem;
+}
+
+/* header end  */
+
+/* navbar start  */
+.navbar {
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand img {
+    width: 65px;
+    height: auto;
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: #5A8F7B;
+    transform: scale(1.1);
+    border-radius: .6rem;
+}
+
+/* navbar end  */
