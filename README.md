@@ -1,12 +1,17 @@
 # bootstrap-project
 a simple project using bootsrap-4
 
-##language use here
-1.html
-2.css3
+<h5>language use here</h5>
+<ol>
+  <li>html</li>
+  <li>css3</li>
+  </ol>
 
-##framework
-1.bootstrap-4 with cdn
-2.git
+<h5>framework</h5>
+<ol>
+  <li>bootstrap-4</li>
+  <li>git</li>
+  </ol>
 
-#this is a responsive website made for practicing web development
+
+<h4>this is a responsive website made for practicing web development</h4>
